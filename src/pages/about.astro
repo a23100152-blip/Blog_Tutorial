@@ -1,0 +1,72 @@
+---
+import '../styles/global.css';
+
+const pageTitle = "Sobre Mí";
+
+const identity = {
+	firstName: "Santiago",
+	country: "México",
+	occupation: "Estudiante de Ingeniería en TI",
+	hobbies: ["videojuegos", "programación", "aprender cosas nuevas"],
+};
+
+const skills = ["HTML", "CSS", "JavaScript", "Astro", "Programación Web"];
+
+const happy = true;
+const finished = false;
+const goal = 3;
+
+const skillColor = "crimson";
+const fontWeight = "bold";
+const textCase = "uppercase";
+---
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" href="/favicon.ico" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{pageTitle}</title>
+		<style define:vars={{ skillColor, fontWeight, textCase }}>
+			h1 {
+				color: purple;
+				font-size: 4rem;
+			}
+			.skill {
+				color: var(--skillColor);
+				font-weight: var(--fontWeight);
+				text-transform: var(--textCase);
+			}
+		</style>
+	</head>
+	<body>
+		<a href="/">Home</a>
+		<a href="/about/">About</a>
+		<a href="/blog/">Blog</a>
+
+		<h1>{pageTitle}</h1>
+		<h2>... y mi nuevo sitio con Astro!</h2>
+
+		<p>Estoy trabajando en el tutorial introductorio de Astro. Esta es la segunda página de mi sitio, y la primera que construí yo mismo.</p>
+		<p>Este sitio se irá actualizando conforme avance en el tutorial.</p>
+
+		<p>Aquí hay algunos datos sobre mí:</p>
+		<ul>
+			<li>Mi nombre es {identity.firstName}.</li>
+			<li>Vivo en {identity.country} y soy {identity.occupation}.</li>
+			{identity.hobbies.length >= 2 &&
+				<li>Dos de mis hobbies son: {identity.hobbies[0]} y {identity.hobbies[1]}</li>
+			}
+		</ul>
+
+		<p>Mis habilidades son:</p>
+		<ul>
+			{skills.map((skill) => <li class="skill">{skill}</li>)}
+		</ul>
+
+		{happy && <p>Estoy feliz de estar aprendiendo Astro!</p>}
+		{finished && <p>¡Terminé este tutorial!</p>}
+		{goal === 3 ? <p>Mi meta es terminar en 3 días.</p> : <p>Mi meta no es 3 días.</p>}
+	</body>
+</html>
