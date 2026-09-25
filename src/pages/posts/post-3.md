@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Mi Tercer Post del Blog'
 pubDate: 2025-09-27
 description: 'Tuve algunos retos, pero preguntar en la comunidad ayudó mucho.'
