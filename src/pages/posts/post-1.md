@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Empezando con Astro'
-pubDate: 2025-09-25
+pubDate: 2026-09-25
 description: 'Primer avance de la práctica: instalación del proyecto y las primeras páginas.'
 author: 'Santiago'
 image:

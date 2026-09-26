@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Archivo del blog automático'
-pubDate: 2025-09-28
+pubDate: 2025-09-25
 description: 'Cuarto avance: generando el listado de posts y las páginas de tags automáticamente.'
 author: 'Santiago'
 image:
@@ -10,4 +10,4 @@ image:
 tags: ["astro", "logros"]
 ---
 
-Este post debería aparecer junto a los demás en automático, ya que ahora la lista del blog se genera con `import.meta.glob()` en lugar de agregar cada entrada a mano.
+Este post debería aparecer junto a los demás en automático, ya que ahora la lista del blog se genera con import.meta.glob() en lugar de agregar cada entrada a mano.

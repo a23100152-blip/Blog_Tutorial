@@ -6,8 +6,8 @@ const pageTitle = "Sobre Mí";
 const identity = {
 	firstName: "Santiago",
 	country: "México",
-	occupation: "Estudiante de Ingeniería en TI",
-	hobbies: ["videojuegos", "programación", "aprender cosas nuevas"],
+	occupation: "Estudiante de Tecnologo",
+	hobbies: ["Artes Marciales", "programación", "aprender cosas nuevas"],
 };
 
 const skills = ["HTML", "CSS", "JavaScript", "Astro", "Programación Web"];
@@ -35,7 +35,7 @@ const textCase = "uppercase";
 
 	<h2>Un poco sobre este sitio</h2>
 
-	<p>Este blog es parte de una práctica para la materia de Programación Web, donde seguí el tutorial oficial de Astro para armar mi propio sitio. Esta página en particular ya la construí yo, sin la guía paso a paso del tutorial.</p>
+	<p>Este blog es parte de una práctica para la materia de Programación Web, donde seguí el tutorial oficial de Astro para armar mi propio sitio. Esta página en particular ya la construí yo, usando la guia del curso de Astro.</p>
 	<p>La idea es irle agregando contenido conforme vaya avanzando en las siguientes unidades.</p>
 
 	<p>Un poco sobre mí:</p>
@@ -54,5 +54,5 @@ const textCase = "uppercase";
 
 	{happy && <p>Me está gustando bastante trabajar con Astro.</p>}
 	{finished && <p>Ya terminé el tutorial completo.</p>}
-	{goal === 3 ? <p>Mi meta es terminar el tutorial en 3 días.</p> : <p>Mi meta no es terminarlo en 3 días.</p>}
+	{goal === 3 ? <p>Mi meta es terminar el tutorial en este mismo dia.</p> : <p>Mi meta no es terminarlo en más días.</p>}
 </BaseLayout>

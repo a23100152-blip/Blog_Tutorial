@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Layouts y algunos tropiezos'
-pubDate: 2025-09-27
+pubDate: 2026-09-25
 description: 'Tercer avance: reutilizando layouts, y un par de errores que me costó resolver.'
 author: 'Santiago'
 image:
@@ -10,4 +10,4 @@ image:
 tags: ["astro", "aprendizaje", "comunidad"]
 ---
 
-Esta unidad me costó un poco más, sobre todo la parte de combinar layouts. Tuve que revisar el [Discord de Astro](https://astro.build/chat) para resolver un par de dudas, y la verdad respondieron bastante rápido.
+Esta unidad me costó un poco más, sobre todo la parte de combinar layouts. 

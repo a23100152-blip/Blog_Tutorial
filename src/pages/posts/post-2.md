@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Componentes y props'
-pubDate: 2025-09-26
+pubDate: 2026-09-25
 description: 'Segundo avance: cómo armar componentes reutilizables y pasarles datos.'
 author: 'Santiago'
 image:
