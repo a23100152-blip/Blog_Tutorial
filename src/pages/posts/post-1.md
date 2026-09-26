@@ -1,8 +1,8 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'Mi Primer Post del Blog'
+title: 'Empezando con Astro'
 pubDate: 2025-09-25
-description: 'Este es el primer post de mi nuevo blog con Astro.'
+description: 'Primer avance de la práctica: instalación del proyecto y las primeras páginas.'
 author: 'Santiago'
 image:
     url: 'https://docs.astro.build/assets/rose.webp'
@@ -10,14 +10,14 @@ image:
 tags: ["astro", "blog", "aprendizaje"]
 ---
 
-Bienvenido a mi _nuevo blog_ sobre aprender Astro. Aquí compartiré mi camino mientras construyo un nuevo sitio web.
+Este es el primer post de la práctica. Aquí voy a ir dejando los avances conforme resuelva cada unidad del tutorial de Astro.
 
-## Lo que he logrado
+## Lo que llevo hasta ahora
 
-1. **Instalar Astro**: Creé un nuevo proyecto de Astro y configuré mis cuentas en línea.
-2. **Hacer páginas**: Aprendí a crear páginas usando archivos `.astro` dentro de `src/pages/`.
-3. **Hacer posts de blog**: ¡Este es mi primer post! Ya tengo páginas de Astro y posts en Markdown.
+1. Instalé Astro y configuré el repositorio en GitHub.
+2. Aprendí a crear páginas nuevas usando archivos `.astro` dentro de `src/pages/`.
+3. Escribí este primer post en Markdown, que es básicamente lo mismo que estás leyendo ahora.
 
 ## Lo que sigue
 
-Terminaré el tutorial de Astro y seguiré agregando más posts.
+Seguir con las siguientes unidades del tutorial e ir agregando más posts conforme avance.

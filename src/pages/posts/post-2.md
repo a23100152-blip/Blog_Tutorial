@@ -1,8 +1,8 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'Mi Segundo Post del Blog'
+title: 'Componentes y props'
 pubDate: 2025-09-26
-description: 'Después de aprender un poco de Astro, no pude parar.'
+description: 'Segundo avance: cómo armar componentes reutilizables y pasarles datos.'
 author: 'Santiago'
 image:
     url: 'https://docs.astro.build/assets/arc.webp'
@@ -10,4 +10,4 @@ image:
 tags: ["astro", "blog", "aprendizaje"]
 ---
 
-Después de una primera semana exitosa aprendiendo Astro, decidí seguir intentando. Escribí e importé un componente pequeño de memoria.
+Después de la primera unidad, seguí con la parte de componentes. Armé un componente pequeño y aprendí a pasarle props desde otra página, que es básicamente cómo se le mandan datos de un lado a otro.

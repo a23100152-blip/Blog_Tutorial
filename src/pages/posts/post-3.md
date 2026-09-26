@@ -1,8 +1,8 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'Mi Tercer Post del Blog'
+title: 'Layouts y algunos tropiezos'
 pubDate: 2025-09-27
-description: 'Tuve algunos retos, pero preguntar en la comunidad ayudó mucho.'
+description: 'Tercer avance: reutilizando layouts, y un par de errores que me costó resolver.'
 author: 'Santiago'
 image:
     url: 'https://docs.astro.build/assets/rays.webp'
@@ -10,4 +10,4 @@ image:
 tags: ["astro", "aprendizaje", "comunidad"]
 ---
 
-No siempre fue fácil, pero estoy disfrutando construir con Astro. Y la [comunidad de Discord](https://astro.build/chat) es muy amable y servicial.
+Esta unidad me costó un poco más, sobre todo la parte de combinar layouts. Tuve que revisar el [Discord de Astro](https://astro.build/chat) para resolver un par de dudas, y la verdad respondieron bastante rápido.

@@ -1,8 +1,8 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'Mi Cuarto Post del Blog'
+title: 'Archivo del blog automático'
 pubDate: 2025-09-28
-description: 'Ya casi termino el tutorial, y esto ahora se siente automático.'
+description: 'Cuarto avance: generando el listado de posts y las páginas de tags automáticamente.'
 author: 'Santiago'
 image:
     url: 'https://docs.astro.build/default-og-image.png'
@@ -10,4 +10,4 @@ image:
 tags: ["astro", "logros"]
 ---
 
-Este post debería aparecer junto a los demás automáticamente, porque `import.meta.glob()` ahora arma la lista de posts por mí.
+Este post debería aparecer junto a los demás en automático, ya que ahora la lista del blog se genera con `import.meta.glob()` en lugar de agregar cada entrada a mano.

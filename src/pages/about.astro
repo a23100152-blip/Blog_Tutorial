@@ -33,26 +33,26 @@ const textCase = "uppercase";
 		}
 	</style>
 
-	<h2>... y mi nuevo sitio con Astro!</h2>
+	<h2>Un poco sobre este sitio</h2>
 
-	<p>Estoy trabajando en el tutorial introductorio de Astro. Esta es la segunda página de mi sitio, y la primera que construí yo mismo.</p>
-	<p>Este sitio se irá actualizando conforme avance en el tutorial.</p>
+	<p>Este blog es parte de una práctica para la materia de Programación Web, donde seguí el tutorial oficial de Astro para armar mi propio sitio. Esta página en particular ya la construí yo, sin la guía paso a paso del tutorial.</p>
+	<p>La idea es irle agregando contenido conforme vaya avanzando en las siguientes unidades.</p>
 
-	<p>Aquí hay algunos datos sobre mí:</p>
+	<p>Un poco sobre mí:</p>
 	<ul>
 		<li>Mi nombre es {identity.firstName}.</li>
 		<li>Vivo en {identity.country} y soy {identity.occupation}.</li>
 		{identity.hobbies.length >= 2 &&
-			<li>Dos de mis hobbies son: {identity.hobbies[0]} y {identity.hobbies[1]}</li>
+			<li>Dos cosas que me gusta hacer en mi tiempo libre: {identity.hobbies[0]} y {identity.hobbies[1]}</li>
 		}
 	</ul>
 
-	<p>Mis habilidades son:</p>
+	<p>Hasta ahora, estas son las herramientas con las que he estado trabajando:</p>
 	<ul>
 		{skills.map((skill) => <li class="skill">{skill}</li>)}
 	</ul>
 
-	{happy && <p>Estoy feliz de estar aprendiendo Astro!</p>}
-	{finished && <p>¡Terminé este tutorial!</p>}
-	{goal === 3 ? <p>Mi meta es terminar en 3 días.</p> : <p>Mi meta no es 3 días.</p>}
+	{happy && <p>Me está gustando bastante trabajar con Astro.</p>}
+	{finished && <p>Ya terminé el tutorial completo.</p>}
+	{goal === 3 ? <p>Mi meta es terminar el tutorial en 3 días.</p> : <p>Mi meta no es terminarlo en 3 días.</p>}
 </BaseLayout>
